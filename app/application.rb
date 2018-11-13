@@ -9,6 +9,8 @@ class Application
       item_name = req.path.split("/items/").last
       item = @@items.find{|item| item.name == item_name}
       if item
+        
+      end
     end
   end
 end
