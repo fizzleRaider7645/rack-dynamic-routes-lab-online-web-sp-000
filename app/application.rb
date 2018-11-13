@@ -10,6 +10,7 @@ class Application
       item = @@items.find{|item| item.name == item_name}
       if item
         resp.write item.price
+      else
       end
     end
   end
